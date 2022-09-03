@@ -91,3 +91,93 @@ body{
 header .secondary-btn {
     margin-left: auto;
 }
+
+/* Footer styling */
+footer {
+    background-color: transparent;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer .title {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-2);
+}
+
+.page-footer .title:not(.block-one .title) {
+    margin-bottom: 30px;
+}
+
+.page-footer ul {
+    list-style: none;
+}
+
+.page-footer .block-one .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.page-footer .block-one .address-details {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--color-2);
+    margin-bottom: 10px;
+}
+
+.page-footer .block-one .info-details {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--color-2);
+}
+
+.page-footer .block-two ul li a,
+.page-footer .block-three ul li a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    margin-bottom: 10px;
+    color: var(--color-2);
+}
+
+.page-footer .block-four ul {
+    display: flex;
+    gap: 15px;
+}
+
+/* Styling of copyright */
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.copyright .claim p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--color-2);
+}
